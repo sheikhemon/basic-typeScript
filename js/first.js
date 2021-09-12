@@ -8,11 +8,11 @@ let third = true;
 /*
     Set function parameter type and function return type
 */
-function add(first, second) {
+function add4(first, second) {
     const result = first + second;
     return result;
 }
-const output = add(45, 47);
+const output = add4(45, 47);
 console.log(output);
 // console func
 function doubleConsole(number) {

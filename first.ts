@@ -9,11 +9,11 @@ let third: boolean = true;
 /*
     Set function parameter type and function return type
 */
-function add(first: number, second: number): number {
+function add4(first: number, second: number): number {
     const result = first + second;
     return result;
 }
-const output: number = add(45, 47);
+const output: number = add4(45, 47);
 console.log(output);
 // console func
 function doubleConsole(number: number): void {
